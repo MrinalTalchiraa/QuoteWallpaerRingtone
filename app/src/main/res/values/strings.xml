@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quotes WallPaper Ringtone Firebase</string>
+    <string name="please_wait">Please wait</string>
+    <string name="title">Title</string>
+    <string name="cannot_use_save_permission">Cannot use download feature without requested permission</string>
+    <string name="downloading">Downloading...</string>
+
+    <string name="subscribe_KEY1" >com.price.removeads</string>
+
+    <string name="qintitle"><![CDATA[Play & Win Coins]]></string>
+    <string name="qintdes"><![CDATA[Win 5,00,000 Coins & More]]></string>
+    <string name="qintitle1">Play Now and Earn Up to 50,000</string>
+    <string name="qintdes1"><![CDATA[Play and Earn 5,00,000 Coins & Mores]]></string>
+    <string name="qnativetitle"><![CDATA[Play & Win Coins]]></string>
+
+</resources>

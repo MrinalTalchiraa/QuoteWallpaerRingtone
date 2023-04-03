@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff4040</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorPrimary">#ff4040</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="seekbarcolor">#F31874</color>
+    <color name="gnt_ad_green">#3A6728</color>
+
+    <color name="light_grey">#cccccc</color>
+    <color name="transparent1">#ff2f6d</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="colorlight">#eaf4ff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackads">#1a1a1a</color>
+    <color name="black1">#4c4c4c</color>
+
+
+    <color name="colorbtn1">#ffb979</color>
+    <color name="colorbtn2">#7f90ff</color>
+    <color name="colorbtn3">#ff7b7c</color>
+    <color name="colorbtn4">#c67cff</color>
+    <color name="colorbtn5">#7abe20</color>
+    <color name="colorbtn6">#ff447f</color>
+    <color name="colorbtn7">#ff791b</color>
+    <color name="colorbtn8">#ff7ce8</color>
+    <color name="colorGrey">#808080</color>
+
+</resources>

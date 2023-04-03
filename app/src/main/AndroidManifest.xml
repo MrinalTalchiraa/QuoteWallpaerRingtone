@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="videostatus.setcallertunewallpaper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="videostatus.setcallertunewallpaper.MyOneApplication"
+        android:requestLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="9Mmo8af6r9Ra2RlaxqaPqUD6h8bhmuJpNkThxJR6Vgd7pr03LiTSe7pe9CwCf4l0HrX2f2lTK-P6HrH-RGeIq8" />
+
+        <activity
+            android:name="videostatus.setcallertunewallpaper.SplashLaunchActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="videostatus.setcallertunewallpaper.FirstPageMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="videostatus.setcallertunewallpaper.AppHomePageMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="videostatus.setcallertunewallpaper.AppThankYouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="videostatus.setcallertunewallpaper.AppExitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="videostatus.setcallertunewallpaper.PremiumRemoveAdsActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="videostatus.setcallertunewallpaper.MainHomeAppActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="videostatus.setcallertunewallpaper.AlbumActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".quotestatus.ui.QuotesImageViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- QUOTES STATUS ACTIVITY -->
+        <activity
+            android:name=".quotestatus.ui.QuotesMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotestatus.ui.QuotesSubMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotestatus.saved.ui.QuotesViewSavedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quotestatus.saved.ui.QuotesSavedListActivity"
+            android:screenOrientation="portrait" />
+
+
+        <!-- VIDEO STATUS ACTIVITY -->
+        <activity
+            android:name=".wallpaper.ui.WallpaperCategoryListActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- WALLPAPER  ACTIVITY -->
+        <activity
+            android:name=".wallpaper.ui.WallpaperMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wallpaper.ui.WallpaperViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wallpaper.saved.ui.WallpaperViewSavedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wallpaper.saved.ui.WallpaperSavedListActivity"
+            android:screenOrientation="portrait" />
+
+        
+        <!--new ringtone-->
+
+        <activity
+            android:name="videostatus.setcallertunewallpaper.ringtone.ui.RingtoneCallerCategoryListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="videostatus.setcallertunewallpaper.ringtone.ui.RingtoneCallerMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="videostatus.setcallertunewallpaper.ringtone.ui.RingtonePlayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="videostatus.setcallertunewallpaper.ringtone.saved.ui.RingtonePlayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="videostatus.setcallertunewallpaper.ringtone.saved.ui.RingtoneSavedListActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+        <!-- FILE SHARING PROVIDER -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

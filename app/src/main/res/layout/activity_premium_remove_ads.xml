@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:id="@+id/back"
+                android:layout_alignParentLeft="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:src="@drawable/backs"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Remove Ads"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/tondo_bold"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/tondo_bold"
+                        android:textColor="@color/white"
+                        android:text="1 Year Premium Plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <ImageView
+                            android:tint="@color/white"
+                            android:src="@drawable/removeads"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginLeft="15dp"
+                                android:gravity="center"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="No ads will display"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <ImageView
+                            android:tint="@color/white"
+                            android:src="@drawable/unlock"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"/>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginLeft="15dp"
+                                android:gravity="center"
+                                android:textSize="14sp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="Unlock Everything"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp">
+
+                    <ImageView
+                        android:src="@drawable/ads_box_sub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp">
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="1 Year Plan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="15dp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="Start Today"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="15dp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="₹ 590"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="15dp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="@color/white"
+                                android:text="per year"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="15dp"
+                                android:fontFamily="@font/tondo_bold"
+                                android:textColor="#f6405f"
+                                android:text="Save up to 60%"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/purchase"
+                        android:layout_width="280dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/btnsub"
+                        android:fontFamily="@font/tondo_bold"
+                        android:gravity="center"
+                        android:text="SUBSCRIBE"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="18dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

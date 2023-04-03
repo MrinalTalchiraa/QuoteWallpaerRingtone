@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "614220973642",
+    "firebase_url": "https://quotes-status-ringtone-app.firebaseio.com",
+    "project_id": "quotes-status-ringtone-app",
+    "storage_bucket": "quotes-status-ringtone-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614220973642:android:b6f405925fa8006c8108b3",
+        "android_client_info": {
+          "package_name": "bholucreation.screenmirroring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4-YP4IfIcCjrEBDaX_OMjfwypyA78c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614220973642:android:b4dc45299c1e360b8108b3",
+        "android_client_info": {
+          "package_name": "com.videostatus.imagesquotes.ringtoneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614220973642-ib24h0547hbnu3alal1ufsb6p6fnht9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.videostatus.imagesquotes.ringtoneapp",
+            "certificate_hash": "67d15dc64fdd720663dae9bf0a9a9d1e28c0c91e"
+          }
+        },
+        {
+          "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4-YP4IfIcCjrEBDaX_OMjfwypyA78c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614220973642:android:7cf781d31bd6ceb78108b3",
+        "android_client_info": {
+          "package_name": "videostatus.setcallertunewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4-YP4IfIcCjrEBDaX_OMjfwypyA78c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614220973642-ec0mnh1t9hj6h45aa7pg3tuvtuvthj3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

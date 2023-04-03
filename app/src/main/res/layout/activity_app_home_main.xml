@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlight" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:background="@drawable/mainbox"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/tondo_bold"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btm1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/ry_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/tt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible">
+
+                            <include
+                                android:id="@+id/custom_ad_container"
+                                layout="@layout/ads_admob_layout"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp"
+                            app:cardBackgroundColor="@color/colorbtn2"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/btnstart"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:paddingLeft="15dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:text="START"
+                                        android:fontFamily="@font/tondo_bold"
+                                        android:textColor="@color/white"
+                                        android:textSize="18dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginTop="5dp"
+                                        android:text="Enjoy with lots of new features"
+                                        android:fontFamily="@font/tondo_light"
+                                        android:textSize="16dp"
+                                        android:textColor="@color/white"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/appstart"
+                                        android:tint="@color/white" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp"
+                            app:cardBackgroundColor="@color/colorbtn3"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/btnrate"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:paddingLeft="15dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:text="RATE APP"
+                                        android:fontFamily="@font/tondo_bold"
+                                        android:textColor="@color/white"
+                                        android:textSize="18dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginTop="5dp"
+                                        android:text="Give a 5 Star Rating"
+                                        android:fontFamily="@font/tondo_light"
+                                        android:textColor="@color/white"
+                                        android:textSize="16dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/apprate"
+                                        android:tint="@color/white" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp"
+                            app:cardBackgroundColor="@color/colorbtn4"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/btnshare"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:paddingLeft="15dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:text="SHARE APP"
+                                        android:fontFamily="@font/tondo_bold"
+                                        android:textColor="@color/white"
+                                        android:textSize="18dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginTop="5dp"
+                                        android:text="Share app with your friends"
+                                        android:fontFamily="@font/tondo_light"
+                                        android:textColor="@color/white"
+                                        android:textSize="16dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/appshare"
+                                        android:tint="@color/white" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp"
+                            app:cardBackgroundColor="@color/colorbtn6"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/btnmore"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:paddingLeft="15dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:text="MORE APPS"
+                                        android:fontFamily="@font/tondo_bold"
+                                        android:textColor="@color/white"
+                                        android:textSize="18dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginTop="5dp"
+                                        android:text="Lots of Apps for You"
+                                        android:fontFamily="@font/tondo_light"
+                                        android:textColor="@color/white"
+                                        android:textSize="16dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/appmore"
+                                        android:tint="@color/white" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="3dp"
+                            app:cardBackgroundColor="@color/colorbtn7"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/btnprivacy"
+                                android:layout_weight="10"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:paddingLeft="15dp"
+                                    android:gravity="center_vertical"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:text="PRIVACY POLICY"
+                                        android:fontFamily="@font/tondo_bold"
+                                        android:textColor="@color/white"
+                                        android:textSize="18dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginTop="5dp"
+                                        android:text="View our Privacy Policy"
+                                        android:fontFamily="@font/tondo_light"
+                                        android:textColor="@color/white"
+                                        android:textSize="16dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/applock"
+                                        android:tint="@color/white" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardUseCompatPadding="true"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:onClick="QurekaAds"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/qnative2" />
+
+                            <RelativeLayout
+                                android:gravity="center_vertical"
+                                android:layout_width="50dp"
+                                android:layout_height="30dp">
+
+                                <RelativeLayout
+                                    android:gravity="center"
+                                    android:background="@drawable/qadsbox"
+                                    android:layout_width="25dp"
+                                    android:layout_height="17dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="Ad"
+                                        android:textColor="@color/white"
+                                        android:textSize="10dp"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+
+                                </RelativeLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"/>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <RelativeLayout
+            android:id="@+id/btm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <include
+                android:id="@+id/custom_ad_banner"
+                layout="@layout/ads_banner_layout"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
